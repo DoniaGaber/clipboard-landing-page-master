@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}body{
+    overflow-x: hidden;
+}
+h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+h2{
+    font-family: 'Bai Jamjuree', sans-serif;
+    opacity: 0.6;
+
+}
+p{
+    font-size: 22px;
+    opacity: 0.5;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+input{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    background-color: hsl(233, 100%, 69%);
+    cursor: pointer;
+    border-color: transparent;
+    border-radius: 150px;
+}
+/* start of section home */
+
+.contain-home{
+    background-image: url('./images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+.contain-home img{
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+.logo h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    opacity: 0.6;
+}
+.btn-head{
+    padding: 50px;
+    text-align: center;
+}
+.btn-Mac{
+    background-color:hsl(171, 66%, 44%) ;
+}
+/* end of section home   */
+/* start of section about */
+.contain-about{
+    width: 100vw;
+    height: 100vh;
+}
+.contain-about h1{
+    font-size: 40px;
+    opacity: 0.7;
+}
+.contain-about div  p{
+    font-size: 18px;
+}
+.contain-about div{
+    text-align: center;
+}
+.contain-about .img-content{
+    display: flex;
+    margin-top: 50px;
+}
+.contain-about .img-content aside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contain-about .img-content aside article{
+    text-align: left;
+}
+/* end of section about */
+.contain-acces{
+    width: 100vw;
+    height: 100vh;
+    margin-top:200px ;
+    text-align: center;
+}
+.contain-acces h1{
+    font-size: 30px;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+.contain-acces p{
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+/* ens of section acces */
+
+/* start of section supercharge */
+
+.contain-supercharge{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 130px;
+    text-align:center;
+}
+.contain-supercharge .contain-supercharge-tittle{
+    margin-bottom: 20px;
+}
+.contain-supercharge .contain-supercharge-tittle h1{
+    margin-bottom: 20px;
+    opacity: 0.7;
+    font-size: 30px;
+}
+.contain-supercharge .contain-supercharge-tittle p{
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+.box-two h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box-two p{
+    font-size: 18px;
+}
+.boxes-img{
+    display: flex;
+    justify-content: space-around;
+}
+/* end of section supercharge  */
+/* start of section clipboard */
+.contain-clipboard{
+    width: 100vw;
+    height: 60vh;
+    text-align: center;
+}
+.contain-clipboard h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.contain-clipboard p{
+    font-size: 20px;
+}
+.contain-clipboard .btn-iOS{
+    background-color: hsl(171, 66%, 44%);
+}
+/* ens of section clipboard */
+footer{
+    background-color: #8080802b;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+footer a{
+    display: block;
+    font-size: 15px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 10px;
+    text-decoration: none;
+    color: gray;
+
+}.logo-footer{
+    width: 50px;
+    height: 50px;
+}
+footer section img
+{
+    margin: 7px;
+    margin-top: 20px;
+}
+@media screen and (max-width:770px) {
+    /* home  */
+    .logo img{
+        margin-top: 40px;
+    }
+    .contain-home .btn-head .btn-iOS{
+        margin-bottom: 10px;
+    }
+    /* section about  */
+    .contain-about{
+        margin-top: 50px;
+    }
+    .contain-about h1{
+        margin-bottom: 10px;
+    }
+    .contain-about .img-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .contain-about .img-content aside img{
+        width: 270px;
+        margin-bottom: 20px;
+    }
+    .contain-about .img-content  aside article{
+        text-align: center;
+        justify-content: space-around;
+    }
+    .contain-acces{
+         margin-top: 500px;
+}
+.contain-acces article img{
+    width: 272px;
+}
+.contain-supercharge{
+    height: 100vh;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box-two{
+    margin: 20px;
+}
+.boxes-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxes-img img{
+    margin: 20px;
+}
+.contain-clipboard{
+    margin-top: 900px;
+}
+.contain-clipboard h1{
+    font-size: 25px;
+}
+.contain-clipboard .btn-iOS{
+    margin-bottom:10px;
+}
+footer{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}
+.logo-footer{
+    margin: 10px;
+    margin-bottom: 0;
+}
+footer div{
+    height: 10px;
+}
+footer a{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 20px;
+    justify-content: space-around;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
